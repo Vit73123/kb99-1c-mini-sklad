@@ -255,6 +255,12 @@
 			<Catalog>Контрагенты</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Report>ОстаткиПоТоварам</Report>
+			<Report>ЗакупкиТоваров</Report>
+			<Report>ПродажиТоваров</Report>
+			<AccumulationRegister>ОстаткиТоваров</AccumulationRegister>
+			<AccumulationRegister>Продажи</AccumulationRegister>
+			<AccumulationRegister>Закупки</AccumulationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

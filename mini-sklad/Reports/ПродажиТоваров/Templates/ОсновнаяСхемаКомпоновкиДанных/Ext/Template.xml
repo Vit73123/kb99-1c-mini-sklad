@@ -74,7 +74,7 @@
 			ТОГДА ПродажиОбороты.ПериодГод
 	КОНЕЦ КАК Периодичность
 ИЗ
-	РегистрНакопления.Продажи.Обороты(&amp;ДатаНачала, &amp;ДатаОкончания, Авто, ) КАК ПродажиОбороты</query>
+	РегистрНакопления.Продажи.Обороты(, , Авто, ) КАК ПродажиОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Количество</dataPath>
@@ -117,42 +117,6 @@
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
-	</parameter>
-	<parameter>
-		<name>ДатаНачала</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата начала</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>true</useRestriction>
-		<expression>&amp;Период.ДатаНачала</expression>
-	</parameter>
-	<parameter>
-		<name>ДатаОкончания</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата окончания</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>true</useRestriction>
-		<expression>&amp;Период.ДатаОкончания</expression>
 	</parameter>
 	<parameter>
 		<name>Период</name>

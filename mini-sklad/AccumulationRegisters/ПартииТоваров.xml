@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<AccumulationRegister uuid="5a34017d-8213-407f-827d-92e3ff13a125">
+	<AccumulationRegister uuid="4689c47f-00f9-41fd-b298-3746669cbbe0">
 		<InternalInfo>
-			<xr:GeneratedType name="AccumulationRegisterRecord.Продажи" category="Record">
-				<xr:TypeId>0b6c460e-23e9-4ae3-94a6-512ba04953c4</xr:TypeId>
-				<xr:ValueId>8a5bc341-1f7d-42a7-be9a-ff379997f845</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ПартииТоваров" category="Record">
+				<xr:TypeId>0b4f48f7-c854-4cd8-af62-5745042ba730</xr:TypeId>
+				<xr:ValueId>93e1a147-bd3c-4b76-bded-ff312667938b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterManager.Продажи" category="Manager">
-				<xr:TypeId>0138720c-6a1b-44d9-bad6-2b1c19701dbf</xr:TypeId>
-				<xr:ValueId>e69f1bdc-b351-4880-8b2a-521bac2e6cc6</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterManager.ПартииТоваров" category="Manager">
+				<xr:TypeId>0f7ff542-015d-4121-961d-0b766ed0d4c4</xr:TypeId>
+				<xr:ValueId>0e44d866-d369-449a-97d6-6c6b62cc8561</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterSelection.Продажи" category="Selection">
-				<xr:TypeId>6ed2f58e-2499-4abc-b9a2-c5ae2117ebcc</xr:TypeId>
-				<xr:ValueId>466ac594-512d-4375-aa3b-d3cc4ee5f33e</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ПартииТоваров" category="Selection">
+				<xr:TypeId>dce8bcdf-8191-4994-ac2f-bf96a56a0031</xr:TypeId>
+				<xr:ValueId>d07f4e81-b0c4-4820-a7d9-eeca020a1487</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterList.Продажи" category="List">
-				<xr:TypeId>53e7db14-913c-4d95-bce6-f4f261664f1a</xr:TypeId>
-				<xr:ValueId>bd2ca99a-f586-4030-8170-8d8c223bc1b6</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterList.ПартииТоваров" category="List">
+				<xr:TypeId>b40faeb5-c454-4c82-8ac4-31ce23b38fe5</xr:TypeId>
+				<xr:ValueId>6cf6808e-7bc2-4936-8846-f41139bfee48</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordSet.Продажи" category="RecordSet">
-				<xr:TypeId>c8490b76-779c-4194-b2b6-4e66f56616aa</xr:TypeId>
-				<xr:ValueId>93581aa2-0e27-4161-ac86-56119dbd71b8</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ПартииТоваров" category="RecordSet">
+				<xr:TypeId>4875c4fb-b1d2-47cb-9c4e-027e4f3fef79</xr:TypeId>
+				<xr:ValueId>dfadfe49-b29e-47a1-b006-b88affc996a8</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="AccumulationRegisterRecordKey.Продажи" category="RecordKey">
-				<xr:TypeId>c6b8ab80-5360-4cea-98f0-7dd1e3193f5f</xr:TypeId>
-				<xr:ValueId>3755e852-4f0a-4903-b8ca-96065c27e338</xr:ValueId>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ПартииТоваров" category="RecordKey">
+				<xr:TypeId>cf12259e-d6f2-40ef-b675-b1a2b18a32c0</xr:TypeId>
+				<xr:ValueId>6d08794f-673b-4ee4-bed1-d6cd2d76b622</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Продажи</Name>
+			<Name>ПартииТоваров</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Продажи</v8:content>
+					<v8:content>Партии товаров</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultListForm>AccumulationRegister.Продажи.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm/>
 			<AuxiliaryListForm/>
-			<RegisterType>Turnovers</RegisterType>
+			<RegisterType>Balance</RegisterType>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
@@ -49,7 +49,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="b05730ef-feff-41c6-8c34-7b6acb38ccb9">
+			<Resource uuid="3a25df9d-68a4-4cfe-8961-210c7c5fba38">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -89,7 +89,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Resource uuid="b0f0d363-dbfc-4ebb-9564-166d9c63ef74">
+			<Resource uuid="b175409a-0401-47b1-b619-7319ee4f5555">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -129,48 +129,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Attribute uuid="9599cb5c-68ee-43f6-9be1-d27deabe2481">
-				<Properties>
-					<Name>Цена</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Цена</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-				</Properties>
-			</Attribute>
-			<Dimension uuid="e45bd075-5061-4e09-8bb7-3f924d0d33de">
+			<Dimension uuid="4fe0a258-b0e0-4c83-8e07-db5c87d4f6ef">
 				<Properties>
 					<Name>Товар</Name>
 					<Synonym>
@@ -208,18 +167,18 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="e2b7d4ea-858b-4ac8-84e6-17ce22d9ee61">
+			<Dimension uuid="f1d2b807-cd90-4550-b9ee-dc311588f20f">
 				<Properties>
-					<Name>Клиент</Name>
+					<Name>Партия</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Клиент</v8:content>
+							<v8:content>Партия</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+						<v8:Type>cfg:DocumentRef.Поступление</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -246,7 +205,6 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</AccumulationRegister>
 </MetaDataObject>

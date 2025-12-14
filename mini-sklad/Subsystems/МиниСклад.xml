@@ -26,8 +26,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиПоТоварам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗакупкиТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиТоваров</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">bc55c712-762f-4ff6-8135-747ed264c0e8</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">d15692fc-1579-4232-bb4f-c38e1da37e37</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ТоварыПоКонтрагентам</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

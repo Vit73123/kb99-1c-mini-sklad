@@ -17,16 +17,29 @@
 			<dataPath>Количество</dataPath>
 			<field>Количество</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаОстаток</dataPath>
+			<field>СуммаОстаток</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ОстаткиТоваровОстатки.Товар КАК Товар,
-	ОстаткиТоваровОстатки.КоличествоОстаток КАК Количество
+	ОстаткиТоваровОстатки.КоличествоОстаток КАК Количество,
+	ОстаткиТоваровОстатки.СуммаОстаток КАК СуммаОстаток
 ИЗ
-	РегистрНакопления.ОстаткиТоваров.Остатки(&amp;Дата, ) КАК ОстаткиТоваровОстатки</query>
+	РегистрНакопления.ОстаткиТоваров.Остатки(, ) КАК ОстаткиТоваровОстатки</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Количество</dataPath>
 		<expression>Сумма(Количество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СуммаОстаток</dataPath>
+		<expression>Сумма(СуммаОстаток)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -45,24 +58,6 @@
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
-	<parameter>
-		<name>Дата</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
-		<useRestriction>true</useRestriction>
-		<expression>&amp;Период</expression>
-	</parameter>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -78,6 +73,15 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СуммаОстаток</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>

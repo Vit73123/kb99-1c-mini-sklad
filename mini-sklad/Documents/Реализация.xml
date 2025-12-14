@@ -187,7 +187,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
-			<DefaultListForm/>
+			<DefaultListForm>Document.Реализация.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -199,6 +199,7 @@
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
@@ -257,6 +258,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="d1c6af8e-d853-4614-ae0e-157905d70ac6">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.Реализация.Товары" category="TabularSection">

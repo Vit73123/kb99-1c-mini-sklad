@@ -16,6 +16,11 @@
 				<xr:Common>true</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="AccumulationRegister.ПартииТоваров.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
 	<CommandsOrder>
 		<Command name="Catalog.Контрагенты.StandardCommand.OpenList">
@@ -37,6 +42,9 @@
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 		<Command name="AccumulationRegister.ОстаткиТоваров.StandardCommand.OpenList">
+			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
+		</Command>
+		<Command name="AccumulationRegister.ПартииТоваров.StandardCommand.OpenList">
 			<CommandGroup>NavigationPanelOrdinary</CommandGroup>
 		</Command>
 	</CommandsOrder>

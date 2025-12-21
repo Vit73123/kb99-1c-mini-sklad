@@ -6,7 +6,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Мини-Ссклад</v8:content>
+					<v8:content>Мини-Склад</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -28,6 +28,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПродажиТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ПартииТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ТоварыПоКонтрагентам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныПродажи</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -251,12 +251,23 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
+			<Role>Администратор</Role>
+			<Role>Директор</Role>
+			<Role>Мастер</Role>
+			<Role>МенеджерПоПродажам</Role>
+			<Role>Бухгалтер</Role>
+			<Role>Расчетчик</Role>
 			<FilterCriterion>КритерийОтбора1</FilterCriterion>
 			<CommonModule>ОбщийРаботаСоСправочниками</CommonModule>
+			<CommonModule>РегламентныеПроцедуры</CommonModule>
+			<CommonModule>ГлобальныйПоискВДанных</CommonModule>
+			<ScheduledJob>ОбновлениеИндекса</ScheduledJob>
+			<ScheduledJob>СлияниеИндексов</ScheduledJob>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Document>Поступление</Document>
 			<Document>Реализация</Document>
+			<Document>ВводНачальныхОстатковТоваров</Document>
 			<Enum>ВидыТоваров</Enum>
 			<Report>ОстаткиПоТоварам</Report>
 			<Report>ЗакупкиТоваров</Report>

@@ -30,6 +30,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ТоварыПоКонтрагентам</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыТоваров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныПродажи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВводНачальныхОстатковТоваров</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
